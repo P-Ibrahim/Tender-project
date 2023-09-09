@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TenderModel1" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="TenderEntities1" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="c" ReturnType="Collection(TenderModel1.c_Result)" />
+  </EntityContainer>
+  <ComplexType Name="c_Result">
+    <Property Type="Decimal" Name="Price" Nullable="false" Precision="19" />
+    <Property Type="DateTime" Name="Start_Date" Nullable="false" />
+    <Property Type="DateTime" Name="End_Date" Nullable="false" />
+  </ComplexType>
+</Schema>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TenderModel1StoreContainer" CdmEntityContainer="TenderEntities1">
+    <FunctionImportMapping FunctionImportName="c" FunctionName="TenderModel1.Store.c">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TenderModel1.c_Result">
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Start_Date" ColumnName="Start_Date" />
+          <ScalarProperty Name="End_Date" ColumnName="End_Date" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>
